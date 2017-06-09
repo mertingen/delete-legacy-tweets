@@ -14,7 +14,7 @@ var T = new twitter({
 
 //bugünün tarhihi set ediliyor.
 const dt = dateTime.create()
-//dt.offsetInDays(+1);
+//dt.offsetInDays(+1); //bir gün sonrasını alır, -1 ile dünü alır
 var date = dt.format('Y-m-d');
 //hangi kelime hakkında, kimin tarafından atılan tweetlerin silineceği set ediliyor.
 //keyword boş ise bugünden önce atılan tüm tweetleri siler.
