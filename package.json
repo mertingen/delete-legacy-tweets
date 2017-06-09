@@ -1,0 +1,15 @@
+{
+  "name": "delete-legacy-tweets",
+  "version": "1.0.0",
+  "description": "delete legacy tweets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "twitter.com/_mertsimsek",
+  "license": "ISC",
+  "dependencies": {
+    "node-datetime": "^1.0.1",
+    "twit": "^2.2.5"
+  }
+}
